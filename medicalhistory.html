@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Enfent'0' Care</title>
+    <meta name="description" content="Material Design Mobile Template">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+    <link rel="shortcut icon" sizes="196x196" href="img/touch/touch-icon-196x196.png">
+    <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#222222">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+   
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <!-- Icons -->
+    <link href="css/ionicons.min.css" media="all" rel="stylesheet" type="text/css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/swipebox.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+  </head>
+  
+  <body>
+        
+    <!-- Main Container -->
+    <div id="main" class="main">
+
+      <!-- Toolbar -->
+      <div id="toolbar" class="with-tab primary-color z-depth-1">
+        <div class="open-left" id="open-left" data-activates="slide-out-left">
+          <i class="ion-android-menu"></i>
+        </div>
+        <h1 class="title white-text">Medical History</h1>
+        
+       <ul class="tabs" style="width: 100%;">
+          <li class="tab col s3"><a class="active" href="#Present">Present</a></li>
+          <li class="tab col s3"><a href="#Past">Past</a></li>
+          <li class="tab col s3"><a href="#Health">Health</a></li>
+            <li class="tab col s4"><a href="#Report">Report</a></li>
+        <div class="indicator" style="right: 899.333px; left: 0px;"></div><div class="indicator" style="right: 899.333px; left: 0px;"></div></ul>
+      </div>
+      <!-- End of Toolbar -->
+
+      <div class="page with-tab animated fadeinup">
+        
+        <!-- Hero Header -->
+        
+ 
+        
+<div id="Present" style="display: block;">
+
+        <div class="center primary-color page-footer">
+  <div class="center">
+             <h3 style="color:#fff; padding:10px;">Present history</h3>
+             </div>
+            </div>
+            <div id="presentdata">
+            
+            </div>
+         <!-- <a href="main.html">  <div class="card fullscreen">
+           
+            
+            <div class="card-content">
+              <h5 ><strong>Date:   jul-06-2016</strong></h5><span class="more" style="float:right; margin-top:-30px;"><i class="ion-ios-arrow-right"></i></span>
+            </div>
+           
+          </div>
+          </a>
+          <div class="card fullscreen">
+           
+            
+            <div class="card-content">
+              <h5><strong>Date:    jul-06-2016</strong></h5><span class="more" style="float:right; margin-top:-30px;"><i class="ion-ios-arrow-right"></i></span>
+            </div>
+           
+          </div>-->
+        </div>
+            
+            <div id="Past" style="display: block;">
+             <div class="center primary-color page-footer">
+  <div class="center">
+             <h3 style="color:#fff; padding:10px;">Past history</h3>
+             </div>
+            </div>
+        <blockquote class="accent-border"><b>Heart Attack:</b> <label id="lblheartattack"></label></blockquote>
+<blockquote class="accent-border"><b>Heart Attack Year:</b> <label id="lblhearattackyear"></label></blockquote>
+<blockquote class="accent-border"><b>Medical Question:</b> <label id="lblmedicalquestion"></label></blockquote>
+<blockquote class="accent-border"><b>Past Medical Comment:</b> <label id="lblmediaclcomment"></label></blockquote>
+<blockquote class="accent-border"><b>Father Age:</b> <label id="lblfatherage"></label></blockquote>
+<blockquote class="accent-border"><b>Father General Health:</b> <label id="lblfatherhealth"></label></blockquote>
+<blockquote class="accent-border"><b>Father Poor Health Reason:</b> <label id="lblfatherhealthreason"></label></blockquote>
+<blockquote class="accent-border"><b>Mother Age:</b> <label id="lblmotherage"></label></blockquote>
+<blockquote class="accent-border"><b>Mother General Health:</b> <label id="lblmotherhealth"></label></blockquote>
+<blockquote class="accent-border"><b>Mother Poor Health Reason:</b> <label id="lblmotherhealthreason"></label></blockquote>
+<blockquote class="accent-border"><b>Family Disease:</b> <label id="lblfamilydisease"></label></blockquote>
+
+        </div>
+        <div id="Health" style="display: block;">
+           <div class="center primary-color page-footer">
+  <div class="center">
+             <h3 style="color:#fff; padding:10px;">Health</h3>
+             </div>
+            </div>
+            <div id="healthdata"></div>
+        
+        </div>
+        <div id="Report" style="display: block;">
+            <div class="center primary-color page-footer">
+  <div class="center">
+             <h3 style="color:#fff; padding:10px;">Report history</h3>
+             </div>
+            </div>
+            <div id="reportdata"></div>
+        </div>
+        <!-- Contents -->
+      
+
+        <!-- Footer -->
+     
+      <!-- End of Page Contents -->
+ </div>
+      <!-- Sidebars -->
+      <!-- Left Sidebar -->
+      <!-- Left Sidebar -->
+      
+       <ul id="slide-out-left" class="side-nav collapsible">
+        <li><a href="javascript:home();" class="waves-effect"><i class="ion-android-home"></i> Home <span class="more"><i class="ion-ios-arrow-right"></i></span></a></li>
+        <li><a href="javascript:medical();" class="waves-effect"><i class="ion-medkit"></i> Medical History <span class="more"><i class="ion-ios-arrow-right"></i></span></a></li>
+        <li><a href="javascript:logout();" class="waves-effect"><i class="ion-power"></i> Logout <span class="more"><i class="ion-ios-arrow-right"></i></span></a></li>
+       
+      </ul>
+
+      <!-- Right Sidebar -->
+   
+      <!-- End of Sidebars -->
+        
+   
+   <!-- <div class="product-variation">
+          <a class="waves-effect waves-light btn-large modal-trigger accent-color block m-20" href="checkout.html">Medical History </a>
+        </div>-->
+    <!-- End of Main Container -->
+  
+      </div> 
+    <!-- Scripts -->
+     <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/vendor/jquery-2.1.0.min.js"></script>
+    <script src="js/helper.js"></script>
+    <script src="js/vendor/HeadsUp.js"></script>
+    <script src="js/vendor/jquery.smoothState.js"></script>
+    <script src="js/vendor/chart.min.js"></script>
+    <script src="js/vendor/jquery.mixitup.min.js"></script>
+    <script src="js/vendor/jquery.swipebox.min.js"></script>
+    <script src="js/vendor/masonry.min.js"></script>
+    <script src="js/vendor/swiper.min.js"></script>
+    <script src="js/vendor/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+      <script>
+          function home() {
+              window.location.href = 'main.html';
+          }
+          function medical() {
+              window.location.href = 'medicalhistory.html';
+          }
+          function logout() {
+
+              localStorage.removeItem('loginid');
+              localStorage.removeItem('SID');
+              window.location.href = 'login.html';
+          }
+    </script>
+      <script>
+          $(document).ready(function() {
+              getpresenthistoryDate();
+              getHealthDateList();
+              getPasthistory();
+              getReportDateList();
+
+          });
+                </script>
+                <script>
+                    function getReportDateList() {
+                        var result = "";
+                        $('#reportdata').empty();
+
+                        var userid = localStorage.getItem('SID');
+                        $.ajax({
+                        url: 'http://enfantocare.webnetware.com/webapi/EnfantoApi.ashx?Action=GetReport&id=' + userid,
+                            dataType: 'jsonp',
+                            jsonp: 'jsoncallback',
+                            timeout: 200000,
+                            type: 'GET',
+                            success: function(json, status) {
+
+                                $.each(json.Message, function(i, item) {
+
+
+                                    var id = item.id;
+                                    var date = item.cdate;
+                                    var url = item.medicalreport;
+                                    result += "<a href='javascript:void(0);' onclick='loadreportdetails(\"" + url + "\")' ><div class='card fullscreen'><div class='card-content'>";
+                                    result += "<h5 ><strong>Date:   " + date + "</strong></h5>";
+                                    result += "<span class='more' style='float:right; margin-top:-30px;'><i class='ion-ios-arrow-right'></i></span></div> </div></a>";
+
+
+                                });
+                                $('#reportdata').append(result);
+
+                            }
+                        });
+
+
+                    }   
+    </script>
+     <script>
+         function loadreportdetails(id) {
+           
+             window.location.href = 'report.html?url=' + id
+         }
+    </script>
+      <script>
+          function getHealthDateList() {
+              var result = "";
+              $('#healthdata').empty();
+             
+              var userid = localStorage.getItem('SID');
+              $.ajax({
+                  url: 'http://enfantocare.webnetware.com/webapi/EnfantoApi.ashx?Action=ALLDATEFORHEALTH&stdid=' + userid,
+                  dataType: 'jsonp',
+                  jsonp: 'jsoncallback',
+                  timeout: 200000,
+                  type: 'GET',
+                  success: function(json, status) {
+
+                      $.each(json.Message, function(i, item) {
+
+
+                          var id = item.id;
+                          var date = item.mdate;
+                          result += "<a href='javascript:void(0);' onclick='loadhealthdetails(" + id + ")'><div class='card fullscreen'><div class='card-content'>";
+                          result += "<h5 ><strong>Date:   " + date + "</strong></h5>";
+                          result += "<span class='more' style='float:right; margin-top:-30px;'><i class='ion-ios-arrow-right'></i></span></div> </div></a>";
+
+
+                      });
+                      $('#healthdata').append(result);
+
+                  }
+              });
+
+
+          }   
+    </script>
+      <script>
+          function loadhealthdetails(id) {
+              window.location.href = 'healthdetails.html?id=' + id
+          }
+    </script>
+    <script>
+        function loadpresentdetails(id) {
+            window.location.href = 'presentdetails.html?id='+id
+        }
+    </script>
+      <script>
+        function getpresenthistoryDate() {
+            var result="";
+            $('#presentdata').empty();
+
+            var userid = localStorage.getItem('SID');
+            $.ajax({
+            url: 'http://enfantocare.webnetware.com/webapi/EnfantoApi.ashx?Action=GetDateforPresentMedical&stdid=' + userid,
+                dataType: 'jsonp',
+                jsonp: 'jsoncallback',
+                timeout: 200000,
+                type: 'GET',
+                success: function(json, status) {
+
+                    $.each(json.Message, function(i, item) {
+
+                    var id = item.id;
+                    var date = item.mdate;
+                    result += "<a href='javascript:void(0);' onclick='loadpresentdetails("+id+")'><div class='card fullscreen'><div class='card-content'>";
+                    result += "<h5 ><strong>Date:   " + date + "</strong></h5>";
+                    result += "<span class='more' style='float:right; margin-top:-30px;'><i class='ion-ios-arrow-right'></i></span></div> </div></a>";
+
+                        
+                    });
+                    $('#presentdata').append(result);
+
+                }
+            });
+
+           
+        }   
+    </script>
+    <script>
+        function getPasthistory() {
+
+            var userid = localStorage.getItem('SID');
+            
+            $.ajax({
+            url: 'http://enfantocare.webnetware.com/webapi/EnfantoApi.ashx?Action=GetStudentPastMedical&id=' + userid,
+                dataType: 'jsonp',
+                jsonp: 'jsoncallback',
+                timeout: 200000,
+                type: 'GET',
+                success: function(json, status) {
+
+                    $.each(json.Message, function(i, item) {
+                  
+                        $("#lblheartattack").html(item.heartattack);
+                        $("#lblhearattackyear").html(item.heartattackyear);
+                        $("#lblmedicalquestion").html(item.medicalquestion);
+                        $("#lblmediaclcomment").html(item.pastmedicalcomments);
+                        $("#lblfatherage").html(item.fatherage);
+                        $("#lblfatherhealth").html(item.fathgernalheath);
+                        $("#lblfatherhealthreason").html(item.fatherpoorheathreason);
+                        $("#lblmotherage").html(item.motherage);
+                        $("#lblmotherhealth").html(item.mothgernalhealth);
+                        $("#lblmotherhealthreason").html(item.motherpoorheathreason);
+                        $("#lblfamilydisease").html(item.familydiseases);
+                       
+
+                    });
+
+
+                }
+            });
+
+
+        }   
+    </script>
+  </body>
+</html>
